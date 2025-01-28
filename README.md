@@ -35,7 +35,7 @@ Clone this repository:
 
 bash
 Copy
-git clone https://github.com/your-username/user-management-dashboard.git
+git clone https://github.com/GowriSupriya/UserManagementDashboard.git
 cd user-management-dashboard
 Install dependencies using npm:
 
