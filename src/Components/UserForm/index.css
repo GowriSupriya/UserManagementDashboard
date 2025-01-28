@@ -1,0 +1,150 @@
+/* User Form Styles */
+/* User Form Styles */
+.main-con {
+  display: flex;
+  justify-content: center;
+}
+.user-form {
+  background-color: rgb(182, 202, 242);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin-bottom: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.user-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-form div {
+  margin-bottom: 15px;
+}
+
+.user-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.user-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.buttons-con{
+  display:flex;
+  justify-content:center;
+}
+.user-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  width:25%;
+  margin:5px;
+}
+
+.user-form button[type='submit'] {
+  background-color: #007bff;
+  color: white;
+}
+
+.user-form button[type='button'] {
+  background-color: #dc3545;
+  color: white;
+}
+
+.user-form button:hover {
+  opacity: 0.8;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .user-form {
+    padding: 20px;
+    max-width: 500px;
+  }
+
+  .user-form input {
+    font-size: 15px;
+  }
+
+  .user-form button {
+    font-size: 15px;
+  }
+
+  .user-form button[type='button'] {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .user-form {
+    max-width: 400px;
+    padding: 15px;
+  }
+
+  .user-form input {
+    font-size: 14px;
+  }
+
+  .user-form button {
+    font-size: 14px;
+  }
+
+  .user-form button[type='button'] {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .user-form {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .user-form input {
+    font-size: 13px;
+  }
+
+  .user-form button {
+    font-size: 13px;
+  }
+
+  .user-form button[type='button'] {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 375px) {
+  .user-form {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .user-form input {
+    font-size: 12px;
+  }
+
+  .user-form button {
+    font-size: 12px;
+  }
+
+  .user-form button[type='button'] {
+    font-size: 12px;
+  }
+}
